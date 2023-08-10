@@ -56,6 +56,20 @@ function Navbar() {
                 onClick={closeMobileMenu}
               ></Link>
             </li>
+            <li className="nav-item">
+              <Link
+                to="/contact"
+                className="nav-links-mobile"
+                onClick={closeMobileMenu}
+              ></Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/team"
+                className="nav-links-mobile"
+                onClick={closeMobileMenu}
+              ></Link>
+            </li>
           </ul>
           {button && (
             <>
